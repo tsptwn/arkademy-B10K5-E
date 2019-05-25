@@ -1,5 +1,6 @@
 <?php 
 
+//Trianto Septiawan 
 
 function countVowels($kata)
 {
