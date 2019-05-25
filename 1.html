@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Biodata</title>
+</head>
+<body>
+
+
+<script type="text/javascript">
+
+function biodata(name = '', address = '', hobbies = [], is_married, school = {}, skills ){
+
+		this.name = name;
+		this.address = address;
+		this.hobbies = hobbies;
+		this.is_married = is_married;
+		this.school = school;
+		this.skills = skills;
+
+}
+
+
+let hasil = new biodata('Trianto Septiawan', 
+					'Jatirejo, Kec. Suruh, Kab. Semarang, Jawa Tengah', 
+					['Gaming', 'Read a Comic', 'Listening Music'],
+					false,
+					{
+						highschool :'SMK N 1 Tengaran',
+						university : 'Belum Kuliah'
+					},
+					[
+						{name : 'HTML', score : 80},
+						{name : 'CSS', score : 60},
+						{name : 'JS', score : 40},
+						{name : 'PHP', score : 50},
+						{name : 'JQuery', score : 30},
+						{name : 'Ajax', score : 30},
+					]
+	
+	);
+
+console.log(JSON.stringify(hasil));
+
+</script>
+
+</body>
+</html>	
